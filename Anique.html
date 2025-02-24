@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicants for Overseas Pakistan Origin Card</title>
+    <style>
+        
+        input[type="text"], input[type="email"], input[type="tel"], select {
+            text-transform: uppercase;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Applicants for Overseas Pakistan Origin Card</h1>
+</center>
+    <form>
+        <fieldset>
+
+            <legend>Applicant Information</legend>
+            <br>
+            <center>
+
+            <label for="name">Applicant's Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="50" required><br><br>
+            
+
+            <label for="id">Applicant's NIC/CNIC/POC/NICOP:</label>
+            <input type="text" id="id" name="id" placeholder="Enter your NIC/CNIC/POC/NICOP" maxlength="20" required><br><br>
+            
+
+            <label for="dob">Applicant's Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+
+            <label for="country">Applicant's Present Nationality:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your nationality</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Japan">Japan</option>
+                <option value="England">England</option>
+                <option value="UK">UK</option>
+            </select><br><br>
+            
+
+            <label for="education">Applicant's Education:</label>
+            <select id="education" name="education" required>
+                <option value="">Select your education level</option>
+                <option value="Post Graduate">Post Graduate</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Under Graduate">Under Graduate</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            
+
+            <label for="profession">Applicant's Profession:</label>
+            <input type="text" id="profession" name="profession" placeholder="Enter your profession" maxlength="20" required><br><br>
+            
+
+            <label for="fatherName">Applicant's Father Name:</label>
+            <input type="text" id="fatherName" name="fatherName" placeholder="Enter father's name" maxlength="20" required><br><br>
+            
+            <label for="fatherId">Applicant's Father NIC/CNIC/POC/NICOP:</label>
+            <input type="text" id="fatherId" name="fatherId" placeholder="Enter father's NIC/CNIC/POC/NICOP" maxlength="20" required><br><br>
+            
+            <label for="fatherNationality">Applicant's Father Present Nationality:</label>
+            <select id="fatherNationality" name="fatherNationality" required>
+                <option value="">Select father's nationality</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Japan">Japan</option>
+                <option value="England">England</option>
+                <option value="UK">UK</option>
+            </select><br><br>
+            
+            <label for="motherName">Applicant's Mother Name:</label>
+            <input type="text" id="motherName" name="motherName" placeholder="Enter mother's name" maxlength="20" required><br><br>
+            
+            <label for="motherId">Applicant's Mother NIC/CNIC/POC/NICOP:</label>
+            <input type="text" id="motherId" name="motherId" placeholder="Enter mother's NIC/CNIC/POC/NICOP" maxlength="20" required><br><br>
+            
+            <label for="motherNationality">Applicant's Mother Present Nationality:</label>
+            <select id="motherNationality" name="motherNationality" required>
+                <option value="">Select mother's nationality</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Japan">Japan</option>
+                <option value="England">England</option>
+                <option value="UK">UK</option>
+            </select><br><br>
+            
+            <label>Applicant's Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" required>
+            <label for="other">Other</label><br><br>
+
+            <label for="religion">Applicant's Religion:</label>
+            <select id="religion" name="religion" required>
+                <option value="">Select your religion</option>
+                <option value="Islam">Islam</option>
+                <option value="Christianity">Christianity</option>
+                <option value="Hinduism">Hinduism</option>
+                <option value="Buddhism">Buddhism</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+
+            <label for="maritalStatus">Marital Status:</label>
+            <select id="maritalStatus" name="maritalStatus" required>
+                <option value="">Select marital status</option>
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Widowed">Widowed</option>
+            </select><br><br>
+
+            <label for="presentAddress">Applicant's Present Address:</label>
+            <input type="text" id="presentAddress" name="presentAddress" placeholder="Enter your present address" maxlength="50" required><br><br>
+            
+            <label for="permanentAddress">Applicant's Permanent Address:</label>
+            <input type="text" id="permanentAddress" name="permanentAddress" placeholder="Enter your permanent address" maxlength="50" required><br><br>
+            
+            <label for="telephoneNo">Telephone No:</label>
+            <input type="tel" id="telephoneNo" name="telephoneNo" required><br><br>
+
+            <label for="disability">Disability:</label>
+            <select id="disability" name="disability" required>
+                <option value="">Select disability type</option>
+                <option value="Hearing">Hearing t</option>
+                <option value="Speech">Speech </option>
+                <option value="Vision">Vision </option>
+                <option value="Mobility">Mobility </option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <label for="foreignPassport">Foreign Passport No:</label>
+            <input type="text" id="foreignPassport" name="foreignPassport" placeholder="Enter your foreign passport number" maxlength="20" required><br><br>
+            
+            <label for="expiryDatePassport">Expiry Date of Passport:</label>
+            <input type="date" id="expiryDatePassport" name="expiryDatePassport" required><br><br>
+            
+            <label for="bankReceipt">Bank Receipt/Draft No:</label>
+            <input type="text" id="bankReceipt" name="bankReceipt" placeholder="Enter your bank receipt/draft number" maxlength="20" required><br><br>
+            
+            <label for="depositFeeDate">Deposit Fee Date:</label>
+            <input type="date" id="depositFeeDate" name="depositFeeDate" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <input type="submit" name="send" value="Submit">
+            <input type="reset" name="cancel" value="Cancel">
+
+
+           
+
+        </center>
+
+        </fieldset>
+    </form>
+</body>
+</html>

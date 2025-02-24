@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    <h2>Registaion Form</h2>
+    <br>
+
+
+    <!--in this we use form because we login our form -->
+    <form action="/action.php">
+
+
+        <!--input create a box type tells us what we can write in the box and placehoder shift in the box-->
+        <input type="text" placeholder="username">
+        <br><br>
+        <input type="password" placeholder="password">
+        <br><br>
+
+
+
+        <h4>Select your class</h4>
+        <br>
+        <!--if we want if we click the writen value then option slect so we can written label -->
+        <label>
+          <!--type radio create a cicle and if we donot write name ine putside <>operation name donot written IN this we can choose only one option-->
+            <input type="radio" value="Class XI" name="Class" >Class XI
+            <br>
+        </label>
+        <label>
+            <input type="radio" value="Class XII" name="Class" >Class XII
+        </label>
+        <br>
+
+
+
+        <h4>Select your favourite subject</h4>
+        <br>
+        <label for="math">
+            <!--chackbox create a box which we have a tick option in this we can choose more than one option-->
+            <input type="checkbox" value="Math" name="subject">Math
+            <br>
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject">phy
+            <br>
+        </label>
+        <label for="chem">
+            <input type="checkbox" value="chem" name="subject">chem
+            <br>
+        </label>
+        <label for="Computer science">
+            <input type="checkbox" value="Comuter science" name="subject">computer science
+            <br>
+        </label>
+        <br>
+
+
+        <!--put the add your websites-->
+        <iframe width="200" height="150" src="https://www.youtube.com/embed/DEPncLiCpDM?si=6X3f7p47Dkv315qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+        <!--select creare a box whct we choose a one option where  are yo from-->
+        <h4>Select Your City</h4>
+        <select name="city">
+            <option value="Islamabad">Islamabad</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Multan">Multan</option>
+
+        </select>
+
+
+
+
+        <!--textbar create a box which give the feed back-->
+        <h4>Give the Feedback</h4>
+        <br>
+
+        <textarea name="feedback" placeholder="pleace give the feedback" rows="5">feedback
+        </textarea>
+        <br>
+
+
+        <!--create a submit option file-->
+        <input type="submit" value="submit">
+  
+    </form>
+</center>
+</body>
+</html>
